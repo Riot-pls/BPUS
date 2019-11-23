@@ -9,7 +9,14 @@ export class FormularioComponent implements OnInit {
 
   constructor() { }
 
+
+
+
+
   ngOnInit() {
+    
+    function guardarDatos() {
+  }
   }
 
 }

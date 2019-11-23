@@ -1,40 +1,36 @@
-<div class="posicionComponente">
-  <h1>SOLICITUD DE PASANTES</h1>
-  <p class="subtitulo">El formulario debe ser diligenciado en su totalidad.</p>
-  <form>
-    <table style="width:100%; align-content: center;" >
-      <tr>
-        <th><label>Perfil del estudiante</label></th>
-        <th><label style=" text-align: justify; position: relative;">Descripcion de las funciones o el proyecto en el cual el estudiante desarrollara su practica</label></th>
-      </tr>
-      <tr>
-        <td style="margin-left: 20px;"><textarea cols="50"  name="formulario 1" value="" style="margin-right: 50px;" id="txtperfil" required></textarea></td>
-        <td style="margin-left: 20px;"><textarea cols="50" name="formulario 2" value=""  style="margin-right: 50px;"  id="txtdescripcion" required></textarea></td>
-      </tr>
-      <tr>
-        <th><label>Programa curricular</label></th>
-        <th><label>Remuneracion</label></th>
-      </tr>
-      <tr><td style="margin:20px; ">
-        <select name="listaIng"><option value="1">Ingenieria agricola</option>
-        <option value="2">Ingenieria Agroindustrial</option>
-        <option value="3">ingenieria Electronica</option>
-        <option value="4">Ingenieria civil</option>
-        <option value="5">ingenieria de petroleo</option>
-        <option value="6">Ingenieria de Software</option>
-        <option value="7">Tecnologia en desarollo de Software</option>
-        <option value="8">Tecnologia en obras civiles</option>
-        </select></td>
-        <td style="margin:20px; padding: 10px;"><select name="remunera">
-          <option value="1">Si</option>
-          <option value="2">No</option>
-        </select></td>
-      </tr>
-      <div class="posicionBoton">
-      <tr>
-        <td><input class="boton" type="button" value="solicitar pasantes" /></td>
-      </tr>
-      </div>
-    </table>
-  </form>
-</div>
+<div class="mt-5 usco-card shadow-lg">
+        <div class="card-uscoHeader">
+            <h2 class="text-center">SOLICITUD PASANTE</h2>
+        </div>
+        <div class="card-uscoContent animated fadeIn fast">
+            <form>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h6>Programa curricular</h6>
+                      <select name="listaIng" id="lista"><option value="1">Ingenieria agricola</option>
+            <option value="2">Ingenieria Agroindustrial</option>
+            <option value="3">ingenieria Electronica</option>
+            <option value="4">Ingenieria civil</option>
+            <option value="5">ingenieria de petroleo</option>
+            <option value="6">Ingenieria de Software</option>
+            <option value="7">Tecnologia en desarollo de Software</option>
+            <option value="8">Tecnologia en obras civiles</option>
+            </select>
+                       <br><br><br><br>
+                        <h6>Remuneracion</h6>
+                    <select name="remunera" id="lista">
+              <option value="1">Si</option>
+              <option value="2">No</option><textarea cols="50" id="area" style="margin-right: 50px;" name="formulario 1" value=""  required></textarea>
+            </select>
+                    </div>
+                    <div class="col-sm-7">
+                            <div class="form-group">
+                                    <label for="code" class="font-weight-bold">Perfil del estudiante</label>
+                                    <textarea cols="40" id="area" name="formulario 1" value=""  required></textarea>
+                                    </div>
+                                    <div class="form-group"></div>
+                                    <label for="id" class="font-weight-bold">Descripcion de las funciones o el proyecto en el cual el estudiante desarrollara su practica</label>
+                                    <textarea cols="40" id="area" name="formulario 2" value=""  required></textarea>
+                                    </div> <div class="posicionBoton">
+                                    <input class="boton" type="button" value="Solicitar Pasantes"/>
+                                </div>
